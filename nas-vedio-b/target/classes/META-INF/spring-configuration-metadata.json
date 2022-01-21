@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "vedio",
+      "type": "nas.vedio.bean.Config",
+      "sourceType": "nas.vedio.bean.Config"
+    }
+  ],
+  "properties": [
+    {
+      "name": "vedio.base-image-path",
+      "type": "java.lang.String",
+      "sourceType": "nas.vedio.bean.Config"
+    },
+    {
+      "name": "vedio.base-vedio-path",
+      "type": "java.lang.String",
+      "sourceType": "nas.vedio.bean.Config"
+    },
+    {
+      "name": "vedio.idbeg",
+      "type": "java.lang.String",
+      "sourceType": "nas.vedio.bean.Config"
+    },
+    {
+      "name": "vedio.idend",
+      "type": "java.lang.String",
+      "sourceType": "nas.vedio.bean.Config"
+    }
+  ],
+  "hints": []
+}

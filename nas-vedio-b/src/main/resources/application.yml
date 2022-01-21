@@ -1,0 +1,16 @@
+server:
+  port: 7088
+  servlet:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+spring:
+  datasource:
+    url: jdbc:sqlite:vedio.sqlite
+    driver-class-name: org.sqlite.JDBC
+vedio:
+  baseImagePath: E:/image/
+  baseVedioPath: E:/vedio
+  idbeg: __
+  idend: __
