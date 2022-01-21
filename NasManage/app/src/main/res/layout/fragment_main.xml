@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aa.ui.main.MainFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="5dp"
+        android:scrollbarThumbVertical="@drawable/recy_vertical_scrollbar"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        fab:fab_addButtonColorNormal="@color/fh"
+        fab:fab_addButtonColorPressed="@color/fh"
+        fab:fab_addButtonPlusIconColor="@color/white"
+        fab:fab_labelStyle="@style/menu_labels_style">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@android:drawable/stat_notify_more"
+            fab:fab_addButtonPlusIconColor="@color/fh"
+            fab:fab_colorNormal="@color/fh"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_title="GenImg" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@android:drawable/stat_sys_upload"
+            fab:fab_colorNormal="@color/fh"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_title="  ToTop" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@android:drawable/stat_notify_sync"
+            fab:fab_addButtonPlusIconColor="@color/fh"
+            fab:fab_colorNormal="@color/fh"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_title="Refresh" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

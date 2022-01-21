@@ -1,0 +1,68 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Network">
+        <EditTextPreference
+            app:key="ip"
+            app:title="IP"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="port"
+            app:title="Port"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Api">
+        <EditTextPreference
+            app:key="apiprefix"
+            app:title="Prefix"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="basepath"
+            app:title="BasePath"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="replace"
+            app:title="Replace"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="File">
+        <EditTextPreference
+            app:key="baseVideoPath"
+            app:title="BaseVideoPath"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="baseImagePath"
+            app:title="BaseImagePath"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="预览">
+        <ListPreference
+            app:defaultValue="列表"
+            app:entries="@array/bj_key"
+            app:entryValues="@array/bj_value"
+            app:key="buju"
+            app:title="布局"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="仅远程"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:key="slt"
+            app:title="缩略图"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="仅远程"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:key="ylt"
+            app:title="预览图"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="9"
+            app:entries="@array/imgSize_key"
+            app:entryValues="@array/imgSize_value"
+            app:key="imgSize"
+            app:title="缩略图大小"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
