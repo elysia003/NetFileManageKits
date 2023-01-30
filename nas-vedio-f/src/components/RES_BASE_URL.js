@@ -1,0 +1,5 @@
+export const RES_BASE_URL="/res"
+export const IMG_BASE_URL="/res"
+export const MANAGE_BASE_URL="/manage"
+export const DOC_API="/doc-api"
+export const FILESYSTEM_BASE_URL="/manage"
