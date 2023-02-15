@@ -1,0 +1,28 @@
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Release\ConsoleApp3.exe.config
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Release\ConsoleApp3.exe
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Release\ConsoleApp3.pdb
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Release\HidSharp.dll
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Release\LibreHardwareMonitorLib.dll
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Release\HidSharp.pdb
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Release\HidSharp.xml
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Release\LibreHardwareMonitorLib.xml
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\obj\Release\ConsoleApp3.csproj.AssemblyReference.cache
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\obj\Release\ConsoleApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\obj\Release\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\obj\Release\ConsoleApp3.csproj.CopyComplete
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\obj\Release\ConsoleApp3.exe
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\obj\Release\ConsoleApp3.pdb
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\bin\Release\ConsoleApp3.exe.config
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\bin\Release\ConsoleApp3.exe
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\bin\Release\ConsoleApp3.pdb
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\bin\Release\HidSharp.dll
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\bin\Release\LibreHardwareMonitorLib.dll
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\bin\Release\HidSharp.pdb
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\bin\Release\HidSharp.xml
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\bin\Release\LibreHardwareMonitorLib.xml
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\obj\Release\ConsoleApp3.csproj.AssemblyReference.cache
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\obj\Release\ConsoleApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\obj\Release\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\obj\Release\ConsoleApp3.csproj.CopyComplete
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\obj\Release\ConsoleApp3.exe
+C:\Users\Kallen\Desktop\新建文件夹 (3)\NetFileManageKits\nas-monitor\C#\ConsoleApp3\obj\Release\ConsoleApp3.pdb
