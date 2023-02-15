@@ -1,0 +1,14 @@
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.AssemblyReference.cache
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\HidSharp.dll
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\LibreHardwareMonitorLib.dll
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\HidSharp.pdb
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\HidSharp.xml
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\bin\Debug\LibreHardwareMonitorLib.xml
+C:\Users\Kallen\source\repos\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CopyComplete
