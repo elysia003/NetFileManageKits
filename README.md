@@ -5,4 +5,4 @@
 ## NasManage APP
 ## vedio-f web端
 ## nas-monitor 性能监控模块
-*依赖smartctl,nas-monitor；机箱风扇控制仅兼容ASUA b550m
+*依赖LibreHardwareMonitor
