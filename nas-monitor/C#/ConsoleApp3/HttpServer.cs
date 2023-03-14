@@ -37,31 +37,43 @@ namespace NasMonitor
             {
                 _listener.BeginGetContext(ProcessRequest, null);
                 context = _listener.EndGetContext(result);
-
-                // 发送短信内容
-                Console.WriteLine(context.Request.Url.AbsolutePath);
-                // Http回复
-                string resp = "empty";
-                switch (context.Request.Url.AbsolutePath)
+                context.Response.Headers.Add("Content-type", "text/html;charset=UTF-8");
+                context.Response.ContentEncoding = Encoding.UTF8;
+                context.Response.AppendHeader("Access-Control-Allow-Origin", "*");
+                context.Response.AppendHeader("Access-Control-Allow-Credentials", "true"); 
+                context.Response.AppendHeader("Server", "HttpServer");
+                context.Response.StatusCode = 200;
+                if (context.Request.HttpMethod == "OPTIONS")
                 {
-                    case "/":
-                        resp = Program.monitor.getJson();
-                        break;
-                    case "/setFanRate":
-                        string id=context.Request.QueryString.Get("id");
-                        string rate=context.Request.QueryString.Get("rate");
-                        resp= Program.monitor.setFanRate(id,float.Parse(rate));
-                        break;
-                    default:
-                        break;
+                   
+                    context.Response.AppendHeader("Access-Control-Allow-Headers", "Authorization,Content-Type,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,X-Requested-With");
+                    context.Response.AppendHeader("Access-Control-Max-Age", "86400");
                 }
-                using (StreamWriter writer = new StreamWriter(context.Response.OutputStream,Encoding.UTF8))
+                else
                 {
-                    context.Response.StatusCode = 200;
-                    byte[] buffer = Encoding.UTF8.GetBytes(resp);
-                    context.Response.AddHeader("ContentType", "application/json;charset=utf-8");
-                    writer.Write(resp);
-                    writer.Close();
+                    Console.WriteLine(context.Request.Url.AbsolutePath);
+                    string resp = "empty";
+                    switch (context.Request.Url.AbsolutePath)
+                    {
+                        case "/":
+                            resp = Program.monitor.getJson();
+                            break;
+                        case "/setFanRate":
+                            string id = context.Request.QueryString.Get("id");
+                            string rate = context.Request.QueryString.Get("rate");
+                            resp = Program.monitor.setFanRate(id, float.Parse(rate));
+                            break;
+                        default:
+                            break;
+                    }
+                    using (StreamWriter writer = new StreamWriter(context.Response.OutputStream, Encoding.UTF8))
+                    {
+                        context.Response.StatusCode = 200;
+                        byte[] buffer = Encoding.UTF8.GetBytes(resp);
+                        context.Response.AddHeader("ContentType", "application/json;charset=utf-8");
+                        writer.Write(resp);
+                        writer.Close();
+                    }
                 }
                 context.Response.StatusCode = 200;
                 context.Response.Close();

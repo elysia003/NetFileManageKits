@@ -39,10 +39,10 @@ namespace NasMonitor
                 json += "},";
                 i++;
             }
-            Console.WriteLine(json);
+           
             json += "]";
             json=json.Replace("},]","}]");
-            Console.WriteLine(json);
+            //Console.WriteLine(json);
             return json;
         }
         public string show()
@@ -139,7 +139,7 @@ namespace NasMonitor
                 IsNetworkEnabled = true,
                 IsStorageEnabled = true,
                 IsPsuEnabled = true,
-                IsBatteryEnabled=true
+                //IsBatteryEnabled=true
             };
             computer.Open();
             show();
