@@ -6,3 +6,5 @@
 ## vedio-f web端
 ## nas-monitor 性能监控模块
 *依赖LibreHardwareMonitor
+## web-image
+通过nginx访问手机上的图片
